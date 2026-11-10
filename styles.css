@@ -3,3 +3,5 @@
 @media(max-width:760px){.project-facts{grid-template-columns:repeat(2,1fr)}.project-columns{grid-template-columns:1fr}.card-actions{flex-direction:column;gap:8px}}
 
 .project-visual-wrap{padding:34px 0}.project-visual{margin:0}.project-visual img{display:block;width:100%;height:auto;border:1px solid #ddd;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.08)}.project-visual figcaption{margin-top:10px;color:#666;font-size:.9rem}.leadership-image{display:block;width:100%;height:auto;max-height:360px;object-fit:cover;object-position:top;border-radius:9px;margin-bottom:18px;border:1px solid #e3e3e3}
+
+.media-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.media-gallery.single{grid-template-columns:minmax(0,760px);justify-content:center}.media-gallery figure{margin:0}.media-gallery img{display:block;width:100%;height:420px;object-fit:cover;border-radius:14px;border:1px solid #ddd;box-shadow:0 10px 30px rgba(0,0,0,.08)}.media-gallery figcaption{margin-top:10px;color:#666;font-size:.92rem}@media(max-width:760px){.media-gallery,.media-gallery.single{grid-template-columns:1fr}.media-gallery img{height:auto}}
